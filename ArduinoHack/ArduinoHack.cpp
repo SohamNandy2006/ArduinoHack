@@ -38,19 +38,6 @@ int main()
 	if (arduino.isConnected()) cout << "Connection Established to Serial...\n";
 	else cout << "Error, check your COM serial.\n";
 
-	printf(R"EOF( 
-	             _                                                _ 
-  /\  /\__ _ _ __ __| |_      ____ _ _ __ ___   __ _  __ _     __   _/ |
- / /_/ / _` | '__/ _` \ \ /\ / / _` | '__/ _ \ / _` |/ _` |____\ \ / / |
-/ __  / (_| | | | (_| |\ V  V / (_| | | |  __/| (_| | (_| |_____\ V /| |
-\/ /_/ \__,_|_|  \__,_| \_/\_/ \__,_|_|  \___(_)__, |\__, |      \_/ |_|
-                                               |___/ |___/              
- 
- 
-	)EOF");
-
-
-
 	fProcess.RunProcess();
 
 
